@@ -30,7 +30,7 @@ const getWtConfigFilePath = () => {
     }
   }
 
-  return path.resolve(basePath, `${wtDirPathArr[0]}\\LocalState\\profiles.json`);
+  return path.resolve(basePath, `${wtDirPathArr[0]}\\LocalState\\settings.json`);
 };
 
 const addSchemes = (colorThemeDetail, configObj) => {
